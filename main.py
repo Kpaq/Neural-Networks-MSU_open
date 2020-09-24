@@ -13,3 +13,5 @@ model.compile(optimizer='adam',
  metrics=['accuracy'])
 model.fit(x_train, y_train, epochs=15)
 model.evaluate(x_test, y_test)
+model.summary()
+
